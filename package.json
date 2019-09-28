@@ -1,0 +1,22 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/terrierscript/frontend-template.git",
+  "author": "terrierscript <13282103+terrierscript@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.4",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
